@@ -10,6 +10,7 @@
         
         <?php
         echo "hello";
+<<<<<<< HEAD
 
         function kiemTraSoChinhPhuong($n) {
             
@@ -61,5 +62,15 @@ if (kiemTraSoNguyenTo($so)) {
 ?>
 
 
+=======
+        $value = 3.14;
+
+        if (is_float($value)) {
+            echo "$value la so thuc.";
+        } else {
+            echo "$value khong phai so thuc.";
+        }
+    ?>
+>>>>>>> 5cff448bbcee858c6a8244b58d5bd389adfe67f4
 </body>
 </html>
