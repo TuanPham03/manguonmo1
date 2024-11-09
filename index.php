@@ -8,6 +8,13 @@
 <body>
     <?php 
         echo "hello";
+        $value = 3.14;
+
+        if (is_float($value)) {
+            echo "$value la so thuc.";
+        } else {
+            echo "$value khong phai so thuc.";
+        }
     ?>
 </body>
 </html>
